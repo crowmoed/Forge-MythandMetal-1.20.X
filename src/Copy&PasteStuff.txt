@@ -1,0 +1,2 @@
+"seed": "-1",
+    "surface_rule": "mythandmetal:modcustom_surface_rule"

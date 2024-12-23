@@ -34,7 +34,7 @@
           "parameters": {
             "continentalness": 1.0,
             "depth": 0.1,
-            "erosion": 0.0,
+            "erosion": 0.1,
             "humidity": 0.2,
             "offset": 0.0,
             "temperature": 0.1,
@@ -44,7 +44,6 @@
       ]
     },
     "settings": "mythandmetal:custom_land_settings",
-    "seed": -1,
-    "surface_rule": "mythandmetal:modcustom_surface_rule"
+    "seed": -1
   }
 }

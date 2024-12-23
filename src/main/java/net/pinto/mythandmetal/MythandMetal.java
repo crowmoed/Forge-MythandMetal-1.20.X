@@ -79,12 +79,8 @@ public class MythandMetal
         BLOCKS.register(modEventBus);
         ITEMS.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
-
-
         MinecraftForge.EVENT_BUS.register(this);
 
-        // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
         modEventBus.addListener(this::addCreative);
         modEventBus.addListener(this::commonSetup);
 

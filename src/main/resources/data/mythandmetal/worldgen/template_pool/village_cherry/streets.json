@@ -1,0 +1,50 @@
+{
+	"name": "mythandmetal:village_cherry/streets",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 4,
+		"element": {
+			"element_type": "minecraft:empty_pool_element"
+		}
+	},{
+		"weight": 4,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "mythandmetal:village_cherry/streets/street_striaght",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching"
+		}
+	},{
+		"weight": 3,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "mythandmetal:village_cherry/streets/street_curve",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching"
+		}
+	},{
+		"weight": 2,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "mythandmetal:village_cherry/streets/street_t",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching"
+		}
+	},{
+		"weight": 2,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "mythandmetal:village_cherry/streets/street_cross",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching"
+		}
+	},{
+		"weight": 1,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "mythandmetal:village_cherry/streets/street_rare",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching"
+		}
+	}]
+}

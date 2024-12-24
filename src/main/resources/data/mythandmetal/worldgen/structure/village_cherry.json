@@ -1,9 +1,9 @@
 {
-	"biomes": "minecraft:cherry_grove",
+	"biomes": "mythandmetal:ash_forest",
 	"adapt_noise": false,
 	"spawn_overrides": {},
 	"type": "minecraft:jigsaw",
-	"start_pool": "mythandmetal:village_cherry/town_centers",
+	"start_pool": "mythandmetal:town_centers",
 	"size": 7,
 	"step": "surface_structures",
 	"start_height": {
